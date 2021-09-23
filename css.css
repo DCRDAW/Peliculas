@@ -1,0 +1,19 @@
+body
+  {
+    background-color: black;
+    color:white;
+  }
+.bueno
+  {
+    font-weight: bold;
+    color:lightblue;
+  }
+.cursiva
+  {
+    font-style: italic;
+  }
+.malo
+  {
+    font-weight: bold;
+    color: red;
+  }
