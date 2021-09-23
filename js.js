@@ -55,51 +55,51 @@ class Pelicula{
         this.morgan.arma.disparo(this.paco)
       }
     }
-    
+
     if(this.paco.vida>0){
-      
+
         if(this.paco.vida<5){
           this.narrador.hablar('Paco consiguió ganar, pero a un duro precio, su vida tendia de un hilo y a los pocos dias falleció también,dejando el pueblo sin dueño')
         }
         if(this.paco.vida>=5 && this.paco.vida<10){
           this.narrador.hablar('Paco consiguió ganar, con heridas ciertamente graves, aunque consiguió sobrevivirlas, haciendose dueño de la ciudad')
-        } 
+        }
         if(this.paco.vida>=10){
           this.narrador.hablar('Paco ganó la pelea sobrado, y se convirtió en el dueño de la ciudad')
         }
-      
+
     }
     if(this.maria.vida>0){
-      
+
       if(this.maria.vida<5){
         this.narrador.hablar('Maria consiguió ganar, pero a un duro precio, su vida tendia de un hilo y a los pocos dias falleció también,dejando el pueblo sin dueño')
       }
       if(this.maria.vida>=5 && this.maria.vida<10){
         this.narrador.hablar('Maria consiguió ganar, con heridas ciertamente graves, aunque consiguió sobrevivirlas, haciendose dueño de la ciudad')
-      } 
+      }
       if(this.maria.vida>=10){
         this.narrador.hablar('Maria ganó la pelea sobrado, y se convirtió en el dueño de la ciudad')
       }
-    
+
   }
   if(this.morgan.vida>0){
-      
+
     if(this.morgan.vida<5){
       this.narrador.hablar('Morgan consiguió ganar, pero a un duro precio, su vida tendia de un hilo y a los pocos dias falleció también,dejando el pueblo sin dueño')
     }
     if(this.morgan.vida>=5 && this.morgan.vida<10){
       this.narrador.hablar('Morgan consiguió ganar, con heridas ciertamente graves, aunque consiguió sobrevivirlas, haciendose dueño de la ciudad')
-    } 
+    }
     if(this.morgan.vida>=10){
       this.narrador.hablar('Morgan ganó la pelea sobrado, y se convirtió en el dueño de la ciudad')
     }
-  
+
 }
-   
-   
-    
+
+
+
 }
-  
+
 }
 class Pueblo {
   constructor(nombre,descripcion) {
@@ -121,7 +121,7 @@ class Persona {
 
 }
 
- 
+
 class PersonajeBueno extends Persona
 {
   hablar(mensaje){
@@ -157,7 +157,7 @@ class Arma{
           document.write('<p>'+personaje.nombre+' HA MUERTO!</p>')
         }
       }
-      
+
     }else{
         document.write(`click <br />`)
     }
